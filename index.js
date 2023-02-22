@@ -12,7 +12,7 @@ app.use(express.json());
 
 const uri = `${process.env.MONGODB_URL}`;
 
-console.log(uri);
+// console.log(uri);
 
 const client = new MongoClient(uri, { 
     useNewUrlParser: true, useUnifiedTopology: true, 
